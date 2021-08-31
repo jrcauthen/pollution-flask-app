@@ -1,0 +1,23 @@
+<center>
+<h3>Justin Cauthen's atmospheric pollution prediction app</h3>
+<p>Hit "Predict" to generate a prediction 24 hours from now.</p> 
+<p>Click "Get current conditions" to find out the current weather and pollution levels for Beijing or "Get history" for data from the last three days</p>
+<p><b>Read the accompanying project write-up for details regarding the app set-up and prediction algorithm</b></p>
+<p>P.S. ...I'm not a front-end guy...don't judge the UI too harshly!</p>
+  <img src="{{href}}" height=300 />
+    <br>
+  <form method="POST" action="/history">
+  <br>
+      <input type="submit" name="submit" value="Get history">
+  </form>
+  <br>
+  <form method="POST" action="/current_conditions">
+      <input type="submit" name="submit" value="Get current conditions">
+  </form>
+  <br>
+  <form method="POST" action="/predict">
+      <input type="submit" name="submit" value="Predict">
+  </form>
+  
+</center>
+

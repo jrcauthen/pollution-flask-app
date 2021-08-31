@@ -1,0 +1,12 @@
+
+---
+API_CALL : 'https://api.openweathermap.org/data/2.5/weather?lat=39.9497&lon=116.3891&appid=f6194226602f8e3b4853292336a53d9c'
+API_KEY : 'f6194226602f8e3b4853292336a53d9c'
+DATABASE : weather
+TABLE_HISTORY : weather
+TABLE_PREDICTIONS : predictions
+#HOST : localhost
+#HOST : postgres
+HOST : db
+USER : postgres
+PASSWORD : F!4s37js7J
